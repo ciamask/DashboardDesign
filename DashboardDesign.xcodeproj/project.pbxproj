@@ -10,7 +10,6 @@
 		03DA04082B204A3900380072 /* DashboardDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA04072B204A3900380072 /* DashboardDesignApp.swift */; };
 		03DA040A2B204A3900380072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA04092B204A3900380072 /* ContentView.swift */; };
 		03DA040F2B204A3B00380072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DA040E2B204A3B00380072 /* Preview Assets.xcassets */; };
-		03DA041A2B204AA300380072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DA04192B204AA300380072 /* Assets.xcassets */; };
 		03DA04272B204B5800380072 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA041D2B204B5800380072 /* NavView.swift */; };
 		03DA04282B204B5800380072 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA041E2B204B5800380072 /* ButtonView.swift */; };
 		03DA04292B204B5800380072 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA041F2B204B5800380072 /* BackgroundView.swift */; };
@@ -21,6 +20,7 @@
 		03DA042E2B204B5800380072 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA04242B204B5800380072 /* CardView.swift */; };
 		03DA042F2B204B5800380072 /* extView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA04252B204B5800380072 /* extView.swift */; };
 		03DA04302B204B5800380072 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA04262B204B5800380072 /* DashboardView.swift */; };
+		03DA04322B223F5100380072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DA04312B223F5100380072 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,6 @@
 		03DA04072B204A3900380072 /* DashboardDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDesignApp.swift; sourceTree = "<group>"; };
 		03DA04092B204A3900380072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03DA040E2B204A3B00380072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		03DA04192B204AA300380072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Pokedex/Pokedex/Assets.xcassets; sourceTree = "<group>"; };
 		03DA041D2B204B5800380072 /* NavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		03DA041E2B204B5800380072 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		03DA041F2B204B5800380072 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
@@ -39,6 +38,7 @@
 		03DA04242B204B5800380072 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		03DA04252B204B5800380072 /* extView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extView.swift; sourceTree = "<group>"; };
 		03DA04262B204B5800380072 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		03DA04312B223F5100380072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 		03DA03FB2B204A3900380072 = {
 			isa = PBXGroup;
 			children = (
+				03DA04312B223F5100380072 /* Assets.xcassets */,
 				03DA04062B204A3900380072 /* DashboardDesign */,
 				03DA04052B204A3900380072 /* Products */,
 			);
@@ -83,7 +84,6 @@
 				03DA04212B204B5800380072 /* StackedNotificationView.swift */,
 				03DA04072B204A3900380072 /* DashboardDesignApp.swift */,
 				03DA04092B204A3900380072 /* ContentView.swift */,
-				03DA04192B204AA300380072 /* Assets.xcassets */,
 				03DA040D2B204A3B00380072 /* Preview Content */,
 			);
 			path = DashboardDesign;
@@ -155,8 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DA04322B223F5100380072 /* Assets.xcassets in Resources */,
 				03DA040F2B204A3B00380072 /* Preview Assets.xcassets in Resources */,
-				03DA041A2B204AA300380072 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
