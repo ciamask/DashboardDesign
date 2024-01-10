@@ -55,7 +55,6 @@
 		03DA03FB2B204A3900380072 = {
 			isa = PBXGroup;
 			children = (
-				03DA04312B223F5100380072 /* Assets.xcassets */,
 				03DA04062B204A3900380072 /* DashboardDesign */,
 				03DA04052B204A3900380072 /* Products */,
 			);
@@ -92,6 +91,7 @@
 		03DA040D2B204A3B00380072 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				03DA04312B223F5100380072 /* Assets.xcassets */,
 				03DA040E2B204A3B00380072 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
